@@ -1,0 +1,68 @@
+﻿@model Trufaria.Domain.Trufa
+
+@{
+    ViewBag.Title = "Create";
+}
+
+<h2>Create</h2>
+
+@using (Html.BeginForm()) {
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true)
+
+    <fieldset>
+        <legend>Trufa</legend>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DataFabricacao)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DataFabricacao)
+            @Html.ValidationMessageFor(model => model.DataFabricacao)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.DataValidade)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.DataValidade)
+            @Html.ValidationMessageFor(model => model.DataValidade)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Quantidade)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Quantidade)
+            @Html.ValidationMessageFor(model => model.Quantidade)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Tamanho)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Tamanho)
+            @Html.ValidationMessageFor(model => model.Tamanho)
+        </div>
+
+        <div class="editor-label">
+            @Html.LabelFor(model => model.Valor)
+        </div>
+        <div class="editor-field">
+            @Html.EditorFor(model => model.Valor)
+            @Html.ValidationMessageFor(model => model.Valor)
+        </div>
+
+        <p>
+            <input type="submit" value="Create" />
+        </p>
+    </fieldset>
+}
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

@@ -1,0 +1,50 @@
+﻿@model Trufaria.Domain.Trufa
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Trufa</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataFabricacao)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataFabricacao)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.DataValidade)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.DataValidade)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Quantidade)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Quantidade)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Tamanho)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Tamanho)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.Valor)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Valor)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

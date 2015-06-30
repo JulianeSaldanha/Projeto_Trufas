@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Camada de Apresentação", "1-Camada de Apresentação", "{CA1BC68C-EE33-48E9-9EB7-E2B47702A4FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Camada de Aplicação", "2-Camada de Aplicação", "{AD86C9D6-2B85-41E4-8542-7691FBF8E2BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3-Camada de Dominio", "3-Camada de Dominio", "{198B8DA1-7D28-40E2-AC7D-BA6632C86575}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4-Camada de Infra", "4-Camada de Infra", "{9BEBF905-E1A4-45C7-B589-EE24FB4F7AD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testes", "Testes", "{AB9F2910-E285-4C2C-ADAB-D29EF49D83BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trufaria.Test", "Trufaria.Test\Trufaria.Test.csproj", "{9915412A-488D-4A62-A06E-1C1ED105707F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trufaria.Application", "Trufaria.Application\Trufaria.Application.csproj", "{157D1729-83F7-477F-A858-0B9C830AD5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trufaria.Domain", "Trufaria.Domain\Trufaria.Domain.csproj", "{0C422CEA-79F1-4C8A-8663-0691DF4A43D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trufaria.Infra", "Trufaria.Infra\Trufaria.Infra.csproj", "{28B9294E-B0C4-4B2B-AB18-B7B161555904}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trufaria.Infra.Data", "Trufaria.Infra.Data\Trufaria.Infra.Data.csproj", "{F594F68D-4552-4A76-81B3-31093CB41804}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Truffas", "Truffas\Truffas.csproj", "{3450EEC5-9AB9-42E6-916A-8D7C04B53DF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9915412A-488D-4A62-A06E-1C1ED105707F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9915412A-488D-4A62-A06E-1C1ED105707F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9915412A-488D-4A62-A06E-1C1ED105707F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9915412A-488D-4A62-A06E-1C1ED105707F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{157D1729-83F7-477F-A858-0B9C830AD5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{157D1729-83F7-477F-A858-0B9C830AD5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{157D1729-83F7-477F-A858-0B9C830AD5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{157D1729-83F7-477F-A858-0B9C830AD5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C422CEA-79F1-4C8A-8663-0691DF4A43D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C422CEA-79F1-4C8A-8663-0691DF4A43D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C422CEA-79F1-4C8A-8663-0691DF4A43D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C422CEA-79F1-4C8A-8663-0691DF4A43D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28B9294E-B0C4-4B2B-AB18-B7B161555904}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28B9294E-B0C4-4B2B-AB18-B7B161555904}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28B9294E-B0C4-4B2B-AB18-B7B161555904}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28B9294E-B0C4-4B2B-AB18-B7B161555904}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F594F68D-4552-4A76-81B3-31093CB41804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F594F68D-4552-4A76-81B3-31093CB41804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F594F68D-4552-4A76-81B3-31093CB41804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F594F68D-4552-4A76-81B3-31093CB41804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3450EEC5-9AB9-42E6-916A-8D7C04B53DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3450EEC5-9AB9-42E6-916A-8D7C04B53DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3450EEC5-9AB9-42E6-916A-8D7C04B53DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3450EEC5-9AB9-42E6-916A-8D7C04B53DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3450EEC5-9AB9-42E6-916A-8D7C04B53DF5} = {CA1BC68C-EE33-48E9-9EB7-E2B47702A4FE}
+		{157D1729-83F7-477F-A858-0B9C830AD5E0} = {AD86C9D6-2B85-41E4-8542-7691FBF8E2BB}
+		{0C422CEA-79F1-4C8A-8663-0691DF4A43D9} = {198B8DA1-7D28-40E2-AC7D-BA6632C86575}
+		{28B9294E-B0C4-4B2B-AB18-B7B161555904} = {9BEBF905-E1A4-45C7-B589-EE24FB4F7AD0}
+		{F594F68D-4552-4A76-81B3-31093CB41804} = {9BEBF905-E1A4-45C7-B589-EE24FB4F7AD0}
+		{9915412A-488D-4A62-A06E-1C1ED105707F} = {AB9F2910-E285-4C2C-ADAB-D29EF49D83BB}
+	EndGlobalSection
+EndGlobal

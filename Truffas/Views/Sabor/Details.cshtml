@@ -1,0 +1,29 @@
+﻿@model Trufaria.Domain.Sabor
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Sabor</legend>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.NameSabor)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.NameSabor)
+    </div>
+
+    <div class="display-label">
+         @Html.DisplayNameFor(model => model.TrufaId)
+    </div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.TrufaId)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
